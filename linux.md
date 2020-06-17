@@ -21,7 +21,12 @@
     ``` 
     UUID="355B-FE37" /mnt/TrendNet8Gb vfat rw,exec,codepage=866,nls=utf8,gid=plugdev,umask=0002,nofail,users 0 0
     ```
-
+    - для ext4:
+    
+    ```
+    UUID="bdc9dec8-7b0c-4d58-a626-644f8bdba99f" /mnt/sdb1 ext4 defaults
+    ```
+    
     Пользователь и группа, которым будут принадлежат файлы указываются параметрами
     ```
     uid=user 
