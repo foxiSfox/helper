@@ -36,3 +36,17 @@
     ```
     sudo mount -a
     ```
+
+## Screen
+screen - создать screen 
+screen -S name-of-screen - создать screen с указанием имени
+screen -ls - просмотр списка скринов
+screen -r #idscreen# - зайти в нужный screen
+
+Ctrl+a с - создать окно
+Ctrl+a w - просмотр списка окон
+Ctrl+a #номер# - перейти на окно
+Ctrl+a A - переименовать окно
+Ctrl+a d - выход из менеджера окон
+Ctrl+a ? - полный список команд
+Ctrl+a k - завершить screen
